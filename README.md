@@ -1,4 +1,4 @@
 # dotfiles
 wsl and macos
 
-vim, zsh, bash
+vim, zsh, bash, brew
