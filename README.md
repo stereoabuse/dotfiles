@@ -1,4 +1,4 @@
 # dotfiles
-Ubuntu and OSX, mostly
+wsl and macos
 
 vim, zsh, bash
