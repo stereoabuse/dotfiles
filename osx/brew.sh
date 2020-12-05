@@ -3,24 +3,32 @@
 # Install Brew Packages
 brew install htop
 brew install nmap
+brew install node
+brew install pandoc
 brew install python
-brew install sqlite
+brew install sqlite 
 brew install tmux
 brew install vim
 
 #Install Applications
 brew cask install alfred
 brew cask install anaconda
+brew cask install arduino
 brew cask install balenaetcher
+brew cask install discord
 brew cask install firefox
+brew cask install flux
 brew cask install google-chrome
 brew cask install google-drive-file-stream
 brew cask install iterm2
 brew cask install itsycal
+brew cask install julia
+brew cask install lastpass
 brew cask install mendeley
 brew cask install minecraft
 brew cask install processing
-brew cask install pycharm-ce
+brew cask install pycharm
+brew cask install rectangle
 brew cask install reaper
 brew cask install spotify
 brew cask install steam
