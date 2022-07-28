@@ -1,21 +1,28 @@
 #!/usr/bin/env bash
 
+# if Homebrew is not installed, run:
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
 # Install Brew Packages
 brew install 
+	ffmpeg /
 	htop /
+	jupyterlab /
 	nmap /
 	node /
 	pandoc /
 	python /
 	sqlite  /
 	tmux /
-	vim 
+	vim /
+	wget
 
 #Install Applications
 brew cask install /
 	alfred /
 	anaconda /
-	arduino /
+	# arduino /
 	balenaetcher /
 	discord /
 	firefox /
@@ -24,7 +31,7 @@ brew cask install /
 	google-drive-file-stream /
 	iterm2 /
 	itsycal /
-	julia /
+	# julia /
 	lastpass /
 	mendeley /
 	minecraft /
@@ -38,7 +45,7 @@ brew cask install /
 	texstudio /
 	tor-browser /
 	tunnelbear /
-	virtualbox /
+	# virtualbox /
 	visual-studio-code /
 	vlc /
 	zoom
