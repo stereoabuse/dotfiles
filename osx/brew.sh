@@ -6,46 +6,84 @@
 
 # Install Brew Packages
 brew install 
+	cowsay /
 	ffmpeg /
+	flac /
+	git /
+	graphviz /
+	hashcat /
 	htop /
-	jupyterlab /
+	imagemagick /
+	lame /
+	neofetch /
+	neovim /
 	nmap /
 	node /
+	openssl@1.1 /
 	pandoc /
-	python /
-	sqlite  /
+	pipenv /
+	pixman /
+	pkg-config /
+	pypy3 /
+	python@3.11 /
+	r /
+	sqlite /
+	srt /
+	svt-av1 /
+	tcl-tk /
 	tmux /
-	vim /
-	wget
+	wget /
+	youtube-dl
 
 #Install Applications
 brew cask install /
-	alfred /
-	anaconda /
-	# arduino /
+	arduino /
 	balenaetcher /
-	discord /
+	bibdesk /
+	camo-studio /
+	chromium /
+	dropbox /
+	eagle /
+	electrum /
+	epic-games /
 	firefox /
 	flux /
+	github /
 	google-chrome /
-	google-drive-file-stream /
+	google-drive /
+	gpg-suite /
+	guitar-pro /
+	hammerspoon /
 	iterm2 /
-	itsycal /
-	# julia /
-	lastpass /
+	logitech-options /
 	mendeley /
+	microsoft-excel /
+	microsoft-powerpoint /
+	microsoft-word /
+	midi-monitor /
 	minecraft /
+	novabench /
+	obs /
 	processing /
 	pycharm /
-	rectangle /
 	reaper /
+	rectangle /
 	spotify /
 	steam /
 	sublime-text /
 	texstudio /
+	the-unarchiver /
 	tor-browser /
+	transmission /
 	tunnelbear /
-	# virtualbox /
+	ultimaker-cura /
+	virtualbox /
 	visual-studio-code /
 	vlc /
 	zoom
+
+
+# missing:
+#	Texpad
+#	Universal Control
+#	Delicious Library
