@@ -6,12 +6,10 @@
 
 # Install Brew Packages
 brew install 
-	cowsay /
 	ffmpeg /
 	flac /
 	git /
 	graphviz /
-	hashcat /
 	htop /
 	imagemagick /
 	lame /
@@ -25,7 +23,7 @@ brew install
 	pixman /
 	pkg-config /
 	pypy3 /
-	python@3.11 /
+	python@3.12 /
 	r /
 	sqlite /
 	srt /
@@ -33,19 +31,14 @@ brew install
 	tcl-tk /
 	tmux /
 	wget /
-	youtube-dl
+	yt-dlp
 
 #Install Applications
 brew cask install /
-	arduino /
-	balenaetcher /
-	bibdesk /
 	camo-studio /
 	chromium /
 	dropbox /
-	eagle /
 	electrum /
-	epic-games /
 	firefox /
 	flux /
 	github /
@@ -53,19 +46,14 @@ brew cask install /
 	google-drive /
 	gpg-suite /
 	guitar-pro /
-	hammerspoon /
 	iterm2 /
 	logitech-options /
 	mendeley /
 	microsoft-excel /
 	microsoft-powerpoint /
 	microsoft-word /
-	midi-monitor /
-	minecraft /
-	novabench /
 	obs /
-	processing /
-	pycharm /
+	pycharm-ce /
 	reaper /
 	rectangle /
 	spotify /
@@ -82,8 +70,3 @@ brew cask install /
 	vlc /
 	zoom
 
-
-# missing:
-#	Texpad
-#	Universal Control
-#	Delicious Library
