@@ -1,13 +1,64 @@
+" Enable syntax highlighting
 syntax on
+
+" Set the width of a tab character to 2 spaces
 set tabstop=2
+
+" Set the width for auto-indent to 2 spaces
 set shiftwidth=2
+
+" Use spaces instead of tabs for indentation
 set expandtab
+
+" Automatically indent new lines
 set autoindent
+
+" Enable intelligent tab behavior for better indentation
 set smarttab
+
+" Enable smart indentation based on code structure
 set smartindent
-" set ai
+
+" Display line numbers
 set number
+
+" Highlight search results
 set hlsearch
+
+" Display the cursor position (line and column) in the status line
 set ruler
+
+" Highlight comments in green for better visibility
 highlight Comment ctermfg=green
+
+" Set colorscheme to monokai for better syntax coloring
 colorscheme monokai
+
+" Additional Helpful Settings
+
+" Highlight the current line for better visibility
+set cursorline
+
+" Enable incremental search to see matches while typing
+set incsearch
+
+" Ignore case when searching (useful for general text searches)
+set ignorecase
+
+" Override ignore case if uppercase letter is used in search
+set smartcase
+
+" Show matching parentheses or brackets
+set showmatch
+
+" Enable mouse support for easier text selection
+set mouse=a
+
+" Set a persistent undo so changes are retained even after closing Vim
+set undofile
+
+" Disable audible bell, instead use a visual indicator
+set visualbell
+
+" Enable copying to system clipboard
+set clipboard=unnamedplus
