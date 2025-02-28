@@ -49,6 +49,7 @@ ZSH_THEME="robbyrussell"
 
 # Plugins
 plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting history-substring-search docker kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,6 +89,31 @@ alias c="clear"
 alias h="history"
 alias mkdirp="mkdir -p"
 alias mkcd='function mkcd() { mkdir -p "$1" && cd "$1"; }'
+
+# Additional useful aliases
+alias zshconfig="vim ~/.zshrc"
+alias vimconfig="vim ~/.vim/vimrc"
+alias update="brew update && brew upgrade"
+alias ip="curl -s https://ipinfo.io/ip"
+alias weather="curl -s wttr.in"
+alias ports="lsof -i -P | grep LISTEN"
+alias path='echo $PATH | tr ":" "\n"'
+
+# Enable syntax highlighting in less command
+export LESS='-R'
+export LESSOPEN='|pygmentize -g %s'
+
+# Set default editor
+export EDITOR='vim'
+export VISUAL='vim'
+
+# Improve history settings
+HISTSIZE=10000
+SAVEHIST=10000
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_FIND_NO_DUPS
+setopt HIST_IGNORE_SPACE
+
 
 # --- End of Oh-My-Zsh Setup ---
 # --- User Configuration ---

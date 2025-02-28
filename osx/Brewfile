@@ -42,3 +42,18 @@ vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "rust-lang.rust-analyzer"
+
+
+# Additional useful CLI tools
+brew "htop"
+brew "jq"
+brew "tmux
+brew "git-delta"
+# Additional development tools
+brew "gh" 
+brew "docker" 
+
+# Additional casks
+cask "rectangle" 
+cask "alfred"
+cask "iterm2"
