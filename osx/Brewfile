@@ -1,59 +1,85 @@
-# Taps
 tap "homebrew/bundle"
-brew "webp"
-# Packages from both sources
-brew "bat"
-brew "glib"
-brew "cairo"
-brew "cowsay"
-brew "exiftool"
-brew "harfbuzz"
-brew "aom"
-brew "unbound"
-brew "ffmpeg"
-brew "libavif"
-brew "gdk-pixbuf"
-brew "netpbm"
-brew "librsvg"
-brew "fzf"
-brew "html2text"
-brew "lolcat"
-brew "neofetch"
-brew "node"
-brew "poppler"
-brew "python"
+tap "homebrew/services"
+
+########################################
+# CLI Tools
+########################################
+brew "htop"
+brew "jq"
 brew "ripgrep"
-brew "thefuck"
-brew "tldr"
 brew "tree"
 brew "wget"
-brew "wiki"
+brew "fzf"
+brew "bat"
+brew "thefuck"
+brew "tldr"
+brew "tmux"
+brew "lolcat"
+brew "cowsay"
+brew "neofetch"
 
-# Casks
+########################################
+# Dev Tools 
+########################################
+brew "llvm"
+brew "lld"
+brew "node"
+brew "python"
+brew "pypy3.10"
+brew "gh"
+brew "docker"
+brew "git-delta"
+brew "postgresql@15"
+
+########################################
+# Media
+########################################
+brew "ffmpeg"
+brew "webp"
+brew "jpeg-xl"
+brew "aom"
+brew "libavif"
+brew "poppler"
+brew "tesseract"
+brew "exiftool"
+brew "fdupes"
+brew "netpbm"
+brew "librsvg"
+brew "gdk-pixbuf"
+brew "graphviz"
+brew "cairo"
+brew "glib"
+brew "harfbuzz"
+
+########################################
+# Sys
+########################################
+brew "unbound"
+brew "fish"
+
+########################################
+# Text
+########################################
+brew "pandoc"
+brew "html2text"
+
+########################################
+# GUI
+########################################
 cask "discord"
 cask "firefox"
 cask "spotify"
 cask "steam"
 cask "visual-studio-code"
 cask "vlc"
+cask "rectangle"
+cask "alfred"
+cask "iterm2"
 
-# VS Code extensions
+########################################
+# VS Code
+########################################
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "rust-lang.rust-analyzer"
-
-
-# Additional useful CLI tools
-brew "htop"
-brew "jq"
-brew "tmux
-brew "git-delta"
-# Additional development tools
-brew "gh" 
-brew "docker" 
-
-# Additional casks
-cask "rectangle" 
-cask "alfred"
-cask "iterm2"
