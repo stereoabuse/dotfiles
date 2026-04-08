@@ -1,0 +1,56 @@
+# Ghostty Configuration optimized for Claude Code visibility
+
+# Font settings
+font-family = "JetBrains Mono"
+font-size = 13
+
+# High contrast theme for better visibility
+# Using a dark theme with excellent contrast
+
+background = 1a1b26
+foreground = c0caf5
+
+# Cursor
+cursor-color = c0caf5
+cursor-style = block
+
+# Selection
+selection-background = 283457
+selection-foreground = c0caf5
+
+# ANSI Colors (Tokyo Night theme - excellent contrast)
+# Black
+palette = 0=#15161e
+palette = 8=#414868
+
+# Red
+palette = 1=#f7768e
+palette = 9=#f7768e
+
+# Green
+palette = 2=#9ece6a
+palette = 10=#9ece6a
+
+# Yellow
+palette = 3=#e0af68
+palette = 11=#e0af68
+
+# Blue
+palette = 4=#7aa2f7
+palette = 12=#7aa2f7
+
+# Magenta
+palette = 5=#bb9af7
+palette = 13=#bb9af7
+
+# Cyan
+palette = 6=#7dcfff
+palette = 14=#7dcfff
+
+# White
+palette = 7=#a9b1d6
+palette = 15=#c0caf5
+
+# UI tweaks
+window-padding-x = 10
+window-padding-y = 10
