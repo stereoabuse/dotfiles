@@ -143,7 +143,7 @@ eval $(thefuck --alias)
 eval $(thefuck --alias fuck)
 
 alias py="python3.13"
-alias ff='/Applications/Firefox.app/Contents/MacOS/firefox -P'
+alias ff='open -na Firefox --args -P'
 alias ip='echo "curl ipinfo.io" && curl ipinfo.io'
 alias update='brew update && brew upgrade'
 
