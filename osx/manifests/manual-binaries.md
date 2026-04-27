@@ -1,6 +1,6 @@
 # Manually-installed binaries
 
-Binaries installed outside of Homebrew/npm/cargo/gem/pip — track them here so a fresh machine can be rebuilt.
+Binaries installed outside of Homebrew/npm/cargo/gem/pip so must be tracked fresh
 
 Generated: 2026-04-22
 
@@ -11,8 +11,6 @@ Generated: 2026-04-22
 | `code` | `/Applications/Visual Studio Code.app/…/bin/code` | Cask `visual-studio-code` (auto) |
 | `cursor` | `/Applications/Cursor.app/…/bin/code` | Cask `cursor` (auto) |
 | `wolframscript` | `/Applications/WolframScript.app/…/wolframscript` | [Wolfram download](https://www.wolfram.com/wolframscript/) |
-| `hubcli` | `/Applications/Workspace ONE Intelligent Hub.app/…/hubcli` | Corp MDM — managed install |
-| `hubhealth` | `/Library/Application Support/AirWatch/hubhealth` | Corp MDM — managed install |
 
 Most of `/usr/local/bin` on this machine is `python3*` / `pip*` from the python.org installer — see "Python" below.
 
@@ -31,8 +29,6 @@ Installed from the official python.org installer (not Homebrew). Everything in `
 - After install: `pip3 install -r manifests/pip-user.txt --user`
 
 ## curl-based installers
-
-Keep this list up to date as you run new one-liners:
 
 ```sh
 # Claude Code CLI
