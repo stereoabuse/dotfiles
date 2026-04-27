@@ -11,4 +11,4 @@ cd ~/dotfiles && ./install.sh
 
 ```
 
-install.sh symlinks everything from osx/ into $HOME, installs oh-my-zsh, and runs osx/scripts/restore-manifests.sh to brew bundle everything in osx/manifests/.
+`install.sh` symlinks everything from `osx/` into `$HOME`, installs `oh-my-zsh`, and runs `osx/scripts/restore-manifests.sh` to `brew bundle` everything in `osx/manifests/`.
