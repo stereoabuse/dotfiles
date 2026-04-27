@@ -34,6 +34,15 @@ link() {
   echo "  linked $dest"
 }
 
+if [[ ! -d "$HOME/.oh-my-zsh" ]]; then
+  say "installing oh-my-zsh"
+  # KEEP_ZSHRC=yes: don't write a template (we symlink ours below)
+  # RUNZSH=no:     don't drop into a fresh zsh at the end
+  # CHSH=no:       skip 'chsh -s zsh' (zsh is already the default on modern macOS)
+  RUNZSH=no KEEP_ZSHRC=yes CHSH=no sh -c \
+    "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
 say "symlinking \$HOME dotfiles"
 for f in .zshrc .zprofile .zshenv .profile .gitconfig; do
   [[ -e "$SRC/$f" ]] && link "$SRC/$f" "$HOME/$f"
