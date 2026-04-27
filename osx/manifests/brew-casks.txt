@@ -1,0 +1,13 @@
+basictex
+claude-devtools
+codex
+firefox
+flux
+flux-app
+rectangle
+spotify
+stats
+steam
+sublime-text
+tunnelbear
+vlc

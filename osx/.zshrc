@@ -9,7 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # to see what theme currently: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="random"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -122,24 +122,24 @@ mkcd() {
 
 
 # this requires the web-search plugin
-unalias chat 2>/dev/null
+# unalias chat 2>/dev/null
 
-chat() {
-  if [ -t 0 ]; then
-    # No piped input, just use arguments
-    web_search chatgpt "$@"
-  else
-    # Piped input — read from stdin and join lines
-    local input
-    input=$(cat | tr '\n' ' ' | sed 's/  */ /g')
-    web_search chatgpt "$input"
-  fi
-}
+# chat() {
+#   if [ -t 0 ]; then
+#     # No piped input, just use arguments
+#     web_search chatgpt "$@"
+#   else
+#     # Piped input — read from stdin and join lines
+#     local input
+#     input=$(cat | tr '\n' ' ' | sed 's/  */ /g')
+#     web_search chatgpt "$input"
+#   fi
+# }
 
 
 # the fuck???
 eval $(thefuck --alias)
-# You can use whatever you want as an alias, like for Mondays:
+# You can use whatever you want as an alias:
 eval $(thefuck --alias fuck)
 
 alias py="python3.13"
@@ -147,6 +147,9 @@ alias ff='/Applications/Firefox.app/Contents/MacOS/firefox -P'
 alias ip='echo "curl ipinfo.io" && curl ipinfo.io'
 alias update='brew update && brew upgrade'
 
+alias dangerclaude="claude --dangerously-skip-permissions"
+
 # show/hide files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles true; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles false; killall Finder /System/Library/CoreServices/Finder.app'
+export PATH="$HOME/.local/bin:$PATH"

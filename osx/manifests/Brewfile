@@ -1,0 +1,128 @@
+tap "anomalyco/tap"
+tap "homebrew/bundle"
+tap "johanneskaufmann/tap"
+# New file format for still image compression
+brew "jpeg-xl"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Core application library for C
+brew "glib"
+# Vector graphics library with cross-device output support
+brew "cairo"
+# Apjanke's fork of the classic cowsay project
+brew "cowsay"
+# Perl lib for reading and writing EXIF metadata
+brew "exiftool"
+# OpenType text shaping engine
+brew "harfbuzz"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# GitHub Markdown previewer
+brew "grip"
+# Improved top (interactive process viewer)
+brew "htop"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# GNOME XML library
+brew "libxml2"
+# C XSLT library for GNOME
+brew "libxslt"
+# Rainbows and unicorns in your console!
+brew "lolcat"
+# Text-based web browser
+brew "lynx"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Search PDFs for strings matching a regular expression
+brew "pdfgrep"
+# Highly performant implementation of Python 2 in Python
+brew "pypy"
+# Implementation of Python 3 in Python
+brew "pypy3.10"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Create beautiful image of your source code
+brew "silicon"
+# Programmatically correct mistyped console commands
+brew "thefuck"
+# Simplified and community-driven man pages
+brew "tldr"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
+# Internet file retriever
+brew "wget"
+# Fetch summaries from MediaWiki wikis, like Wikipedia
+brew "wiki"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
+# Programming language designed for robustness, optimality, and clarity
+brew "zig"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode"
+brew "johanneskaufmann/tap/html2markdown"
+# Compact TeX distribution as alternative to the full TeX Live / MacTeX
+cask "basictex"
+# Visualise and analyse Claude Code session executions
+cask "claude-devtools"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# Web browser
+cask "firefox"
+# Screen colour temperature controller
+cask "flux-app"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# Music streaming service
+cask "spotify"
+# System monitor for the menu bar
+cask "stats"
+# Video game digital distribution service
+cask "steam"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# VPN client for secure internet access and private browsing
+cask "tunnelbear"
+# Multimedia player
+cask "vlc"
+# Code editor
+cask "visual-studio-code"
+# AI-powered code editor
+cask "cursor"
+vscode "anthropic.claude-code"
+vscode "ecmel.vscode-html-css"
+vscode "github.vscode-github-actions"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpp-devtools"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
+vscode "openai.chatgpt"
+vscode "twxs.cmake"

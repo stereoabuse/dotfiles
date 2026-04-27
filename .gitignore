@@ -1,0 +1,36 @@
+# secrets my precious
+*.local
+*.secret
+.env
+.env.*
+!.env.example
+
+# cc state stuff
+osx/.claude/settings.local.json
+osx/.claude/plugins/
+osx/.claude/plugins/cache/
+osx/.claude/sessions/
+osx/.claude/projects/
+osx/.claude/cache/
+osx/.claude/history.jsonl
+osx/.claude/shell-snapshots/
+osx/.claude/file-history/
+osx/.claude/paste-cache/
+osx/.claude/ide/
+osx/.claude/session-env/
+osx/.claude/downloads/
+osx/.claude/debug/
+osx/.claude/backups/
+
+# mac stuff
+.DS_Store
+
+# editor swap
+*.swp
+*.swo
+*.swn
+
+# caches
+node_modules/
+__pycache__/
+*.pyc

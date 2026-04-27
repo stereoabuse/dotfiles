@@ -1,0 +1,45 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open:*)"
+    ],
+    "defaultMode": "default"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "sh \"$HOME/.claude/statusline-command.sh\""
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "playground@claude-plugins-official": true,
+    "ralph-loop@claude-plugins-official": false,
+    "playwright@claude-plugins-official": false,
+    "codex@openai-codex": true,
+    "example-skills@anthropic-agent-skills": true,
+    "document-skills@anthropic-agent-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "openai-codex": {
+      "source": {
+        "source": "github",
+        "repo": "openai/codex-plugin-cc"
+      }
+    },
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    }
+  },
+  "forceLoginMethod": "claudeai",
+  "effortLevel": "xhigh",
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "light",
+  "voiceEnabled": true,
+  "skipAutoPermissionPrompt": true
+}

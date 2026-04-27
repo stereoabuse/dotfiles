@@ -1,0 +1,6 @@
+├── @anthropic-ai/claude-code@2.1.112
+├── @openai/codex@0.121.0
+├── @sourcegraph/cody@5.5.15
+├── corepack@0.29.3
+└── npm@10.8.2
+
