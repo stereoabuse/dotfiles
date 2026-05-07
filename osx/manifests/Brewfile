@@ -1,4 +1,5 @@
 tap "anomalyco/tap"
+tap "gromgit/brewtils"
 tap "homebrew/bundle"
 tap "johanneskaufmann/tap"
 # New file format for still image compression
@@ -27,6 +28,8 @@ brew "gh"
 brew "graphviz"
 # GitHub Markdown previewer
 brew "grip"
+# Advanced HTML-to-text converter
+brew "html2text"
 # Improved top (interactive process viewer)
 brew "htop"
 # Tools and libraries to manipulate images in select formats
@@ -47,10 +50,14 @@ brew "neofetch"
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
+# Adds an OCR text layer to scanned PDF files
+brew "ocrmypdf"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Search PDFs for strings matching a regular expression
 brew "pdfgrep"
+# CLI tool to extract (meta)data from PDF and manipulate PDF files
+brew "pdfly"
 # Highly performant implementation of Python 2 in Python
 brew "pypy"
 # Implementation of Python 3 in Python
@@ -59,6 +66,8 @@ brew "pypy3.10"
 brew "ripgrep"
 # Create beautiful image of your source code
 brew "silicon"
+# User interface to the TELNET protocol
+brew "telnet"
 # Programmatically correct mistyped console commands
 brew "thefuck"
 # Simplified and community-driven man pages
@@ -79,6 +88,8 @@ brew "yt-dlp"
 brew "zig"
 # The AI coding agent built for the terminal.
 brew "anomalyco/tap/opencode"
+# Interactive TUI for Homebrew
+brew "gromgit/brewtils/taproom"
 brew "johanneskaufmann/tap/html2markdown"
 # Compact TeX distribution as alternative to the full TeX Live / MacTeX
 cask "basictex"
@@ -94,6 +105,8 @@ cask "flux-app"
 cask "rectangle"
 # Music streaming service
 cask "spotify"
+# Dictation tool including LLM reformatting
+cask "superwhisper"
 # System monitor for the menu bar
 cask "stats"
 # Video game digital distribution service
@@ -108,6 +121,8 @@ cask "vlc"
 cask "visual-studio-code"
 # AI-powered code editor
 cask "cursor"
+# Video conferencing application
+cask "zoom"
 vscode "anthropic.claude-code"
 vscode "ecmel.vscode-html-css"
 vscode "github.vscode-github-actions"

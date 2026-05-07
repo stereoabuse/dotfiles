@@ -9,5 +9,7 @@ spotify
 stats
 steam
 sublime-text
+superwhisper
 tunnelbear
 vlc
+zoom

@@ -19,6 +19,9 @@ Most of `/usr/local/bin` on this machine is `python3*` / `pip*` from the python.
 | Binary | Target | Source |
 |---|---|---|
 | `claude` | `~/.local/share/claude/versions/<ver>` | `curl -fsSL claude.ai/install.sh \| bash` |
+| `fd` | standalone arm64 binary | [sharkdp/fd releases](https://github.com/sharkdp/fd/releases) |
+| `forge` | standalone arm64 binary | [forgecode.dev](https://forgecode.dev) (AI coding agent) |
+| `fzf` | standalone arm64 binary | [junegunn/fzf releases](https://github.com/junegunn/fzf/releases) (separate from brew formula) |
 | `it2` | `~/.local/share/uv/tools/it2/bin/it2` | `uv tool install it2` (iTerm2 integrations) |
 
 ## Python
@@ -27,6 +30,12 @@ Installed from the official python.org installer (not Homebrew). Everything in `
 
 - Download: https://www.python.org/downloads/macos/
 - After install: `pip3 install -r manifests/pip-user.txt --user`
+
+## GUI apps without brew casks
+
+| App | Source |
+|---|---|
+| Logitech Options+ (`logioptionsplus.app`) | [logitech.com/software/logi-options-plus](https://www.logitech.com/en-us/software/logi-options-plus.html). No brew cask exists; only the legacy `logitech-options` cask is available, which is for the older Options app, not Options+. |
 
 ## curl-based installers
 
@@ -42,4 +51,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
 # Oh My Zsh (if used)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Forge (AI coding agent)
+curl -fsSL https://forgecode.dev/install.sh | bash
 ```

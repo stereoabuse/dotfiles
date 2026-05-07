@@ -1,3 +1,4 @@
 anomalyco/tap
+gromgit/brewtils
 homebrew/bundle
 johanneskaufmann/tap

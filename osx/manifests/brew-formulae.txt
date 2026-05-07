@@ -37,6 +37,7 @@ gts
 harfbuzz
 highway
 html2markdown
+html2text
 htop
 icu4c@75
 icu4c@76
@@ -126,6 +127,7 @@ nmap
 npth
 nspr
 nss
+ocrmypdf
 oniguruma
 opencode
 opencore-amr
@@ -138,6 +140,7 @@ pandoc
 pango
 pcre2
 pdfgrep
+pdfly
 pinentry
 pixman
 poppler
@@ -160,7 +163,9 @@ speex
 sqlite
 srt
 svt-av1
+taproom
 tcl-tk@8
+telnet
 tesseract
 thefuck
 theora

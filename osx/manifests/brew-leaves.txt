@@ -7,6 +7,8 @@ fzf
 gh
 graphviz
 grip
+gromgit/brewtils/taproom
+html2text
 htop
 imagemagick
 johanneskaufmann/tap/html2markdown
@@ -17,11 +19,15 @@ lynx
 neofetch
 neovim
 nmap
+ocrmypdf
 pandoc
 pdfgrep
+pdfly
 pypy
 pypy3.10
+ripgrep
 silicon
+telnet
 thefuck
 tldr
 tmux
