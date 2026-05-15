@@ -1,0 +1,285 @@
+﻿{
+    "$schema":  "https://aka.ms/winget-packages.schema.2.0.json",
+    "CreationDate":  "2026-05-15T13:59:24.726-00:00",
+    "Sources":  [
+                    {
+                        "Packages":  [
+                                         {
+                                             "PackageIdentifier":  "CoreyButler.NVMforWindows",
+                                             "Version":  "Unknown"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "7zip.7zip",
+                                             "Version":  "19.00"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "AutoHotkey.AutoHotkey",
+                                             "Version":  "1.1.33.04"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Docker.DockerDesktop",
+                                             "Version":  "4.11.1"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "FocusriteAudioEngineeringLtd.FocusriteControl2",
+                                             "Version":  "1.762.0.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "REALiX.HWiNFO",
+                                             "Version":  "8.46"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Logitech.Options",
+                                             "Version":  "10.26.12"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "MiKTeX.MiKTeX",
+                                             "Version":  "20.6.29"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Prusa3D.PrusaSlicer",
+                                             "Version":  "2.3.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Cockos.REAPER",
+                                             "Version":  "Unknown"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "SublimeHQ.SublimeText.4",
+                                             "Version":  "Unknown"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "VideoLAN.VLC",
+                                             "Version":  "3.0.10"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "ArobasMusic.GuitarPro.8",
+                                             "Version":  "8.0.0-18"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "PuTTY.PuTTY",
+                                             "Version":  "0.74.0.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "GitHub.GitLFS",
+                                             "Version":  "2.13.3"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Microsoft.PowerToys",
+                                             "Version":  "0.99.1"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Apple.Bonjour",
+                                             "Version":  "3.1.0.1"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Google.GoogleDrive",
+                                             "Version":  "125.0.0.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "QMK.QMKToolbox",
+                                             "Version":  "0.1.1"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "JohnMacFarlane.Pandoc",
+                                             "Version":  "3.1.2"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "RealVNC.VNCViewer",
+                                             "Version":  "7.10.0.52294"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Autodesk.EAGLE",
+                                             "Version":  "9.6.2"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "ReincubateLtd.CamoStudio",
+                                             "Version":  "1.0.2.4273"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Oracle.VirtualBox",
+                                             "Version":  "6.1.12"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "GitHub.cli",
+                                             "Version":  "2.92.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "EpicGames.EpicGamesLauncher",
+                                             "Version":  "1.3.176.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Tarma.PublishOrPerish",
+                                             "Version":  "8.12.4608.8831"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "MichaelTippach.ASIO4ALL",
+                                             "Version":  "2.15"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Adobe.CreativeCloud",
+                                             "Version":  "6.8.0.821"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "GnuPG.GnuPG",
+                                             "Version":  "2.3.4"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Google.Chrome.EXE",
+                                             "Version":  "148.0.7778.168"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Catacombae.HFSExplorer",
+                                             "Version":  "2021.10.9"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "OBSProject.OBSStudio",
+                                             "Version":  "26.1.1"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "ElectronicArts.Origin",
+                                             "Version":  "10.5.91.46291"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "JetBrains.PyCharm.Professional",
+                                             "Version":  "2023.3.3"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "RockstarGames.Launcher",
+                                             "Version":  "1.0.104.2632"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Valve.Steam",
+                                             "Version":  "2.10.91.91"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "TeXstudio.TeXstudio",
+                                             "Version":  "3.0.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "TuxGuitar.TuxGuitar",
+                                             "Version":  "1.5.6"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Ultimaker.Cura",
+                                             "Version":  "4.10.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Ubisoft.Connect",
+                                             "Version":  "\u003c 171.0.0.13174"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Microsoft.VisualStudio.2019.BuildTools",
+                                             "Version":  "16.11.39"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Oracle.JavaRuntimeEnvironment",
+                                             "Version":  "8.0.2410.7"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Microsoft.WindowsSDK.10.0.19041",
+                                             "Version":  "10.0.19041.685"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "TunnelBear.TunnelBear",
+                                             "Version":  "4.14.0.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Soulseek.SoulseekQt",
+                                             "Version":  "2019.7.22"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Jaquadro.NBTExplorer",
+                                             "Version":  "2.8.0.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Mojang.MinecraftLauncher",
+                                             "Version":  "1.0.0.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Zwift.Zwift",
+                                             "Version":  "1.1.5"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Anysphere.Cursor",
+                                             "Version":  "1.6.26"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Anaconda.Anaconda3",
+                                             "Version":  "2020.02"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "flux.flux",
+                                             "Version":  "4.134"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "GitHub.GitHubDesktop",
+                                             "Version":  "2.6.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "SST.OpenCodeDesktop",
+                                             "Version":  "1.2.6"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "PrismLauncher.PrismLauncher",
+                                             "Version":  "10.0.5"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Spotify.Spotify",
+                                             "Version":  "1.2.39.578.g0ea3f38b"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "JAMSoftware.TreeSize.Free",
+                                             "Version":  "4.8.1.610"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "WeMod.WeMod",
+                                             "Version":  "8.0.12"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Zoom.Zoom.EXE",
+                                             "Version":  "6.0.4 (38135)"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Overwolf.CurseForge",
+                                             "Version":  "1.302.1-33108"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "SlackTechnologies.Slack",
+                                             "Version":  "4.17.1"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Python.Python.3.12",
+                                             "Version":  "3.12.5"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Microsoft.VisualStudioCode",
+                                             "Version":  "1.119.1"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Canonical.Ubuntu.2404",
+                                             "Version":  "2404.1.31.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Anthropic.Claude",
+                                             "Version":  "1.7196.0.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Microsoft.WindowsTerminal.Preview",
+                                             "Version":  "1.25.1241.0"
+                                         },
+                                         {
+                                             "PackageIdentifier":  "Microsoft.WSL",
+                                             "Version":  "2.7.3.0"
+                                         }
+                                     ],
+                        "SourceDetails":  {
+                                              "Argument":  "https://cdn.winget.microsoft.com/cache",
+                                              "Identifier":  "Microsoft.Winget.Source_8wekyb3d8bbwe",
+                                              "Name":  "winget",
+                                              "Type":  "Microsoft.PreIndexed.Package"
+                                          }
+                    }
+                ],
+    "WinGetVersion":  "1.28.240"
+}

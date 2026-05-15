@@ -22,6 +22,32 @@ osx/.claude/downloads/
 osx/.claude/debug/
 osx/.claude/backups/
 
+# windows claude state
+windows/.claude/settings.local.json
+windows/.claude/.credentials.json
+windows/.claude/plugins/
+windows/.claude/sessions/
+windows/.claude/projects/
+windows/.claude/cache/
+windows/.claude/history.jsonl
+windows/.claude/shell-snapshots/
+windows/.claude/file-history/
+windows/.claude/paste-cache/
+windows/.claude/ide/
+windows/.claude/session-env/
+windows/.claude/downloads/
+windows/.claude/debug/
+windows/.claude/backups/
+windows/.claude/todos/
+windows/.claude/telemetry/
+windows/.claude/tasks/
+windows/.claude/plans/
+
+# windows env / local
+windows/*.local.ps1
+windows/.gitconfig.local
+windows/.dotfiles-backup-*/
+
 # mac stuff
 .DS_Store
 
