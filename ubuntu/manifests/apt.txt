@@ -1,0 +1,9 @@
+build-essential
+curl
+git
+jq
+ripgrep
+fd-find
+tmux
+vim
+zsh
