@@ -1,6 +1,7 @@
 basictex
 claude-devtools
 codex
+cyberduck
 firefox
 flux
 flux-app

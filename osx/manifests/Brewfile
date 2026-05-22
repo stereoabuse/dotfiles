@@ -97,6 +97,8 @@ cask "basictex"
 cask "claude-devtools"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Server and cloud storage browser
+cask "cyberduck"
 # Web browser
 cask "firefox"
 # Screen colour temperature controller
