@@ -1,9 +1,14 @@
 build-essential
 curl
 git
+gh
+tig
 jq
 ripgrep
 fd-find
+bat
+tree
 tmux
 vim
 zsh
+openjdk-21-jdk
