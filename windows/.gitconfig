@@ -3,7 +3,5 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
-[user]
-	name = Chris Bowman
 [include]
 	path = ~/.gitconfig.local
